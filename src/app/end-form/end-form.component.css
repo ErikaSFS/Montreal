@@ -1,0 +1,13 @@
+.container {
+    margin-top: 20px;
+  }
+  
+  mat-form-field {
+    margin-right: 20px;
+    width: 200px;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    display: block;
+  }
