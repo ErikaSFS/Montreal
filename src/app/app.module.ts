@@ -9,7 +9,7 @@ import { MatExpansionModule } from '@angular/material/expansion';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppService } from './services/app.service';
 import { HttpClientModule } from '@angular/common/http';
-import { AddressFormComponent } from './end-form/end-form.component';
+import { EndFormComponent } from './end-form/end-form.component';
 import { MatInputModule } from '@angular/material/input';
 import { MatCardModule } from '@angular/material/card';
 import { MatButtonModule } from '@angular/material/button';
@@ -32,7 +32,7 @@ import { CepFormatPipe } from './pipes/cep-format.pipe';
   declarations: [
     AppComponent,
     HelloComponent,
-    AddressFormComponent,
+    EndFormComponent,
     CepFormatPipe,
   ],
   bootstrap: [AppComponent],
